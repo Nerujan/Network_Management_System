@@ -84,7 +84,7 @@ if(isset($_POST['login'])){
     <div class="popup-content">
         <span class="close" id="closePopup">&times;</span>
         <h2>Contect Admin</h2>
-        <p>Admin email:admin@123gmail.com</p>
+        <p>Admin email:tsugirthan@univ.jfn.ac.lk</p>
     </div>
 </div>
     <script>
