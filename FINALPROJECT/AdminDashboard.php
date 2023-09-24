@@ -186,7 +186,7 @@ if(!(isset($_SESSION['name'])&& isset($_SESSION['role'])&& $_SESSION['role']=='a
                 <th>Terminal Location</th>
                 <th>VLAN</th>
                  <th>Terminal IP</th>
-                <th>Goods</th> 
+                <th>Devices Connected</th> 
                 <th>Remarks</th>
 				
 			</tr>
