@@ -118,13 +118,13 @@ foreach ($data as $row)
             <div><label for="switchLocation">Switch Location: </label>
 			
 			<select name="switchLocation">
-                    <option value="networkRoom"<?php if ($switchLocation == 'Network Room') echo 'selected'; ?>>Network Room</option>
-                    <option value="auditorium" <?php if ($switchLocation == 'Auditorium') echo 'selected'; ?>>Auditorium</option>
+                    <option value="networkRoom"<?php if ($switchLocation == 'networkRoom') echo 'selected'; ?>>Network Room</option>
+                    <option value="auditorium" <?php if ($switchLocation == 'auditorium') echo 'selected'; ?>>Auditorium</option>
                     <option value="CSL1" <?php if ($switchLocation == 'CSL1') echo 'selected'; ?>>CSL1</option>
                     <option value="CSL2" <?php if ($switchLocation == 'CSL2') echo 'selected'; ?>>CSL2</option>
                     <option value="CSL3" <?php if ($switchLocation == 'CSL3') echo 'selected'; ?>>CSL3</option>
                     <option value="CSL4" <?php if ($switchLocation == 'CSL4') echo 'selected'; ?>>CSL4</option>
-                    <option value="researchRoom" <?php if ($switchLocation == 'Research Room') echo 'selected'; ?>>Research Room</option>
+                    <option value="researchRoom" <?php if ($switchLocation == 'researchRoom') echo 'selected'; ?>>Research Room</option>
                 </select>
             
 
